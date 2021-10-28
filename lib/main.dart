@@ -104,7 +104,10 @@ class LoginPage extends StatelessWidget {
         Container(
           padding: EdgeInsets.fromLTRB(0, 45, 0, 0),
         ),
-        Text('아이디 찾기  회원가입')
+        Text(
+          '아이디 찾기  회원가입',
+          style: TextStyle(fontSize: 14),
+        )
       ],
     )));
   }
